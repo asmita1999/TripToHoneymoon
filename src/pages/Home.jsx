@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
-
 import DestinationCard from '../components/DestinationCard';
 import TrendingPlaces from './Trendingplaces';
 import BestResortforHoneymoon from './BestResortforHoneymoon'
-
+import Hero from '../components/homeComponent/Hero';
+import Banner from '../components/Banner';
+import ServicesWeOffer from '../components/ServicesWeOffer';
 
 
 const Home = () => {
@@ -18,6 +19,9 @@ const Home = () => {
     
       
 
+    <Hero />
+    <Banner />
+    <ServicesWeOffer />  
     
     </div>
   );
