@@ -11,17 +11,18 @@ import ServicesWeOffer from '../components/ServicesWeOffer';
 const Home = () => {
   return (
     <div className="font-sans text-gray-800 overflow-hidden">
-
+    <Hero />
     <DestinationCard />
     <TrendingPlaces />
-
+    <Banner />
+     <ServicesWeOffer />  
     <BestResortforHoneymoon />
     
       
 
-    <Hero />
-    <Banner />
-    <ServicesWeOffer />  
+    
+    
+   
     
     </div>
   );

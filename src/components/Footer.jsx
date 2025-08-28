@@ -1,6 +1,4 @@
 
-// src/components/Footer.jsx
-
 import React from 'react';
 import { FaFacebookF, FaInstagram, FaYoutube } from 'react-icons/fa';
 import { MdEmail, MdPhone } from 'react-icons/md';
@@ -35,7 +33,7 @@ const Footer = () => {
           <ul className="space-y-2 text-white">
             <li><Link to="/faq">FAQs</Link></li>
             <li><Link to="/aboutUs">About Us</Link></li>
-            <li><Link to="/contactUs">Contact</Link></li>
+            <li><Link to="/contactUs">Contact</Link></li>@@
           </ul>
         </div>
 
@@ -46,15 +44,7 @@ const Footer = () => {
             <li className="flex items-center gap-2"><MdPhone /> +91-8005993442</li>
             <li className="flex items-center gap-2"><MdEmail /> support@triptohoneymoon.in</li>
           </ul>
-          {/* <div className="mt-4">
-            <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/512px-Google_Play_Store_badge_EN.svg.png"
-                alt="Get it on Google Play"
-                className="w-36"
-              />
-            </a>
-          </div> */}
+          
         </div>
       </div>
 
@@ -66,15 +56,30 @@ const Footer = () => {
         <p>© {new Date().getFullYear()} TriptoHoneymoon. All rights reserved.</p>
         <div className="flex items-center space-x-4 mt-4 md:mt-0">
           <span>Follow Us</span>
-          <a href="https://facebook.com" target="_blank" rel="noreferrer">
-            <FaFacebookF className="text-white hover:text-orange-600 cursor-pointer" />
-          </a>
-          <a href="https://instagram.com" target="_blank" rel="noreferrer">
-            <FaInstagram className="text-white hover:text-orange-600 cursor-pointer" />
-          </a>
-          <a href="https://youtube.com" target="_blank" rel="noreferrer">
-            <FaYoutube className="text-white hover:text-orange-600 cursor-pointer" />
-          </a>
+          <a 
+         href="http://facebook.com/profile.php?id=61551720045200" 
+         target="_blank" 
+         rel="noreferrer"
+>
+  <FaFacebookF className="text-white hover:text-orange-600 cursor-pointer" />
+</a>
+ <a 
+    href="https://instagram.com/triptohoneymoon_official"
+    target="_blank" 
+    rel="noreferrer"
+  >
+    <FaInstagram className="text-white hover:text-orange-600 cursor-pointer text-2xl" />
+  </a>
+
+
+<a 
+  href="https://youtube.com/@trip2honeymoon_official?si=AJEgM_rEtIDQa0Hk" 
+  target="_blank" 
+  rel="noreferrer"
+>
+  <FaYoutube className="text-white hover:text-orange-600 cursor-pointer" />
+</a>
+
         </div>
       </div>
     </footer>

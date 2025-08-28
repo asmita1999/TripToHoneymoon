@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Domestics from "../components/domestic/Domestics";
 
 const Domestic = () => {
   return (
-    <div>Domestic</div>
-  )
-}
+    <div>
+      <Domestics />
+    </div>
+  );
+};
 
-export default Domestic
+export default Domestic;

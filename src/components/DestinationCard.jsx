@@ -103,7 +103,7 @@ export default function TopDestination() {
         >
           {destinations.map((d) => (
             <SwiperSlide key={d.id}>
-              <div className="rounded-2xl bg-white shadow-md overflow-hidden">
+              <div className="rounded-2xl bg-white shadow-md  overflow-hidden">
                 {/* Image + like */}
                 <div className="relative aspect-[16/10]">
                   <img
